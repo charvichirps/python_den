@@ -11,6 +11,12 @@ code .
 ../ -> one step back from current dir
 ../../ -> two step back from current dir
 ```
+VS Code keyboard shortcut
+
+```
+Ctrl ~ to got to terminal
+ctrl m,ctrl m to maximize terminal
+```
 
 ## git commands I used
 ### git setup steps
@@ -39,9 +45,14 @@ git remote
 to see remote urls
 git remote -v
 
+git log 
+git log --oneline
+git show <commit id>
+
 To see branch list
 git branch
 
 to change branch name (master to main )
 git branch -M <new_branch_name>
 ```
+
