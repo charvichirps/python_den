@@ -55,4 +55,10 @@ git branch
 to change branch name (master to main )
 git branch -M <new_branch_name>
 ```
-
+Quick commit
+```
+git status
+git add .
+git commit -m "quick commit"
+git push -u origin main
+```
